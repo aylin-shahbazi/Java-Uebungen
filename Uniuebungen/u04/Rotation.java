@@ -19,6 +19,6 @@ public class Rotation {
         y = -temp;    // 3. y bekommt negierten alten x-Wert (y = -2)
 
         System.out.println(x + " " + y);
-
+        
     }
 }
