@@ -1,11 +1,12 @@
 // Aufgabe: 1000x Kant-Zitat ohne Schleifen ausgeben
+
 public class Kant {
 
     public static void main(String args[]) {
         /**
          * Startet die 1000-malige Ausgabe des Zitats.
          */
-        immanuelHundert();
+        immanuelTausend();
 
     }
 
@@ -48,5 +49,21 @@ public class Kant {
         immanuelZehn();
         immanuelZehn();
 
+    }
+    
+    /**
+     * Ruft die Methode immanuelHundert() zehnmal auf, insgesamt 1000 Ausgaben.
+     */
+    public static void immanuelTausend() {
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
+        immanuelHundert();
     }
 }
