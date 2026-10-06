@@ -14,7 +14,6 @@ public class Kant {
      * Gibt das Zitat einmal aus.
      */
     public static void immanuel() {
-
         System.out.println("Habe Mut dich deines eigenen Verstandes zu bedienen!");
     }
 
