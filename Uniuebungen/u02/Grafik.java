@@ -1,6 +1,6 @@
 package u02;
 
-public class Graphic {
+public class Grafik {
 
     public static void deckel() {
         System.out.println("  _______  ");
