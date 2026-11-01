@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Ueben {
 
     public static void main(String[] args) {
+       int[] number = {1, 2, 3};
        int[] numbers = new int[10];
        numbers[0] = -1;
        System.out.println(numbers[0]);
