@@ -19,6 +19,6 @@ public class Vierc {
                 count++;
             }
         }
-        System.out.println("Buchstaben: a" + count);
+        System.out.println("Buchstaben: " + count);
     }
 }

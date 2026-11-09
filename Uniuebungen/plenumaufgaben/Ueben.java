@@ -1,18 +1,25 @@
 package plenumaufgaben;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ueben {
-
     public static void main(String[] args) {
-        Scanner console = new Scanner(System.in);
-        System.out.print("Bitte geben Sie eine Zahl ein: ");
-        int zahl = console.nextInt();
-        if (zahl % 2 == 0) {
-            System.out.println("Die Zahl ist gerade.");
-        } else {
-            System.out.println("Die Zahl ist ungerade.");
-        }
+        Scanner scanner = new Scanner(System.in);
+        int zahl = scanner.nextInt();
+
+
+
+    }
+    public static int countfactors(int n) {
+       int count = 0;
+       for (int i = 1; i <= n; i++) {
+         if (n % i == 0) {
+            count++;
+         }
+       }
+       return count;
+        
+
     }
 }
+
