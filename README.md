@@ -11,5 +11,5 @@ Der Fokus liegt hier auf dem Verstehen der Programmierlogik und sauberen Grundla
 * Arbeiten mit Arrays und ersten Datenstrukturen
 
 ## Tools
-* Java / IntelliJ IDEA
+* Java / VS Code
 * Git & GitHub
