@@ -1,3 +1,5 @@
+package plenumaufgaben;
+
 public class Fuenfd {
     public static void main(String[] args) {
         System.out.println(istVokal('q'));
